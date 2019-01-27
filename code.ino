@@ -90,7 +90,7 @@ void reconnect() {
  while (!client.connected()) {
  Serial.print("Attempting MQTT connection...");
  // Attempt to connect
- if (client.connect("ESP8266 Client")) {
+ if (client.connect("ESP8266 Client","peak-load", "password")) {
   Serial.println("");
   Serial.println("MQTT connected");
   Serial.println("");
