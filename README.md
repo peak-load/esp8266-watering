@@ -6,7 +6,7 @@ Idea is quite simple and is taken from my knowledge of KNX design principles, wh
 
 Homeassistant automation will be used to contol and monitor this device.
 
-# Minimal testing of fuctionality (tested on Debian) :tada:
+# Minimal testing (done on Ubuntu 18.04.1 LTS) :tada:
 
 - [x] Install and configure mosquitto 
 `apt install -y mosquitto`
