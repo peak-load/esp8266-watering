@@ -5,7 +5,11 @@
 const char* ssid = "XXX";  
 // Wifi WPA2 PSK 
 const char* password = "XXXXXXX";
+
 const char* mqtt_server = "mqtt.local";
+const char* mqtt_user = "peak-load";
+const char* mqtt_password = "peak-load";
+
 const int switch_pump = 14;
 const int switch_valve_1 = 12;
 const int switch_valve_2 = 13;
@@ -90,7 +94,7 @@ void reconnect() {
  while (!client.connected()) {
  Serial.print("Attempting MQTT connection...");
  // Attempt to connect
- if (client.connect("ESP8266 Client", "peak-load", "password")) {
+ if (client.connect("ESP8266 Client", mqtt_user, mqtt_password)) {
   Serial.println("");
   Serial.println("MQTT connected");
   Serial.println("");
