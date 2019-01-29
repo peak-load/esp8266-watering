@@ -6,6 +6,14 @@ Idea is quite simple and is taken from my knowledge of KNX design principles, wh
 
 Homeassistant automation will be used to contol and monitor this device.
 
+** Used Hardware **
+- ESP8266MOD AI-THINKER / NodeMCU - 6,79 EUR @ Amazone.de
+https://en.wikipedia.org/wiki/ESP8266 
+![ESP8266MOD AI-THINKER photo](images/esp8266.png?raw=true)
+
+- Elegoo 4-Channel DC 5 V Relay Module with Optocoupler - 6,99 EUR @ Amazone.de
+![4-Channel DC 5 V Relay Module photo](images/4relay_module.png?raw=true)
+
 # Minimal testing (done on Ubuntu 18.04.1 LTS) :tada:
 
 - [x] Install and configure mosquitto 
